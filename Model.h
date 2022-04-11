@@ -3,7 +3,7 @@
 
 #include <vector>
 #include "geometry.h"
-#include "TgaImage.h"
+#include "tgaimage.h"
 
 class Model {
 private:
@@ -18,6 +18,7 @@ public:
 	~Model();
 	int nverts();
 	int nfaces();
+	Vec3f norm(int iface, int nvert);
 	Vec3f vert(int i);
 	Vec2i uv(int iface, int nvert);
 	TGAColor diffuse(Vec2i uv);
