@@ -141,12 +141,14 @@
   <ItemGroup>
     <ClInclude Include="geometry.h" />
     <ClInclude Include="Model.h" />
+    <ClInclude Include="our_gl.h" />
     <ClInclude Include="TgaImage.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="geometry.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="Model.cpp" />
+    <ClCompile Include="out_gl.cpp" />
     <ClCompile Include="TgaImage.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
